@@ -1,0 +1,17 @@
+环境变量(属性-高级系统设置-环境变量-系统变量)
+  JAVA_HOME=D:\Java\jdk1.8.0_65
+  path=%JAVA_HOME%
+  
+临时环境变量
+  set path=D:\Java\jdk1.8.0_65\bin
+  set path=D:\Java\jdk1.8.0_65\bin;%path%
+  
+1. 编写.java源文件（源文件的类的名称是Demo）
+2. javac *.java 生成Demo.class（运行时文件）
+3. java Demo
+
+main方法
+  1. 程序入口
+  2. 虚拟机调用
+  3. 保证一个类的独立运行（一个类中仅有一个main方法）
+  
