@@ -61,3 +61,29 @@ int x2 = 98;
 int x = x1 + x2;//整数的计算结果默认为int
 
 整数取模(%)运算，符号为取决于被模数
+
+&&是短路运算符，&左右都计算
+
+交换a，b的值
+a = a ^ b
+b = a ^ b
+a = a ^ b
+
+当if else运算后，有一个具体的结果时，可以简化为三元运算符
+
+int x = 2;
+switch(x)
+{
+  default:
+    System.out.println('d');
+  case 4:
+    System.out.println('a');
+  case 1:
+    System.out.println('b');
+    break;
+  case 3:
+    System.out.println('c');
+    break;
+}
+//答案是d a b
+
