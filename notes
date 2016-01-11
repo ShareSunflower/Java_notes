@@ -97,6 +97,11 @@ switch：
   2. 值的个数通常是固定的
   对于几个固定值的判断，建议使用switch语句，因为switch语句会将具体的答案都加载进内存，效率相对高
   
-  windows系统中回车符是有\r\n组成，linux中回车是\n
+windows系统中回车符是有\r\n组成，linux中回车是\n
   
-  break和continue单独存在时，不能在其下写其他语句，因为执行不到
+break和continue单独存在时，不能在其下写其他语句，因为执行不到
+
+Arrays.binarySearch(arr, key);//若arr中有key返回对应的下表，否则返回-(正确的插入位置+1)
+
+面向过程：强调的是过程（动作）
+面向对象：强调的是对象（实体）
