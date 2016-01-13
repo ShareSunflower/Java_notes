@@ -1,0 +1,34 @@
+Maven视频教程http://www.icoolxue.com/album/show/45
+
+环境变量
+  M2_HOME
+    D:\Java\apache-maven-3.3.9
+  path
+   %M2_HOME%\bin;
+
+mvn compile
+mvn test
+mvn clean
+mvn package
+mvn install
+
+仓库
+  mvnrepository.com
+  
+设置本地仓库（默认在{user_home}\.m2\repository）
+  1. 进入maven的conf目录下（如{安装目录}\apache-maven-3.3.9\conf）
+  2. 复制settings.xml到指定用于存放repository的目录下（如D:\Java\maven）
+  3. 将settings.xml文件做如下修改
+    <localRepository>D:/Java/maven/repository</localRepository>
+  4. maven的conf目录下的settings.xml做相同修改
+  
+maven的lib目录下maven-model-builder-3.3.9.jar的pom-4.0.0.xml文件设置了中央仓库
+
+mvn archetype:generate
+  1. 1.1版本
+  mvn archetype:generate -DgroupId=zttc.itat.maven -DartifactId=maven-ch03 -Dversion=0.0.1-SNAPSHOT
+  
+eclipse中配置maven
+  windows --> preference --> maven --> Installations --> (本地安装的Maven)
+  windows --> preference --> maven --> User Settings --> (本地安装配置的Maven仓库)
+  
