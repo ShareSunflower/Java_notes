@@ -1,0 +1,14 @@
+OSGi Open Service Gateway Initiative
+
+微核+系统插件+应用插件
+
+OSGi技术是指一系列用于定义Java动态化组件系统的标准。这些标准通过为大型分布式系统以及嵌入式系统提供一种模块化架构减少了软件的复杂度。
+
+Karaf的安装
+  1. wget http://apache.fayea.com/karaf/4.0.3/apache-karaf-4.0.3-src.tar.gz
+    (http://karaf.apache.org/index/community/download.html#Karaf4.0.3)
+  2. tar -zxvf apache-karaf-4.0.3-src.tar.gz 
+  
+./bin/karaf 启动karaf
+./bin/start 后台启动
+./bin/start clean 重置模式启动karaf
